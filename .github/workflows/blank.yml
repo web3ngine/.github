@@ -1,31 +1,31 @@
+```yaml
 name: CI
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
-pull_request:
-branches:
-- main
+  pull_request:
+    branches:
+      - main
 
-workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
-contents: read
+  contents: read
 
 jobs:
-build:
-name: Validate repository
-runs-on: ubuntu-latest
+  build:
+    name: Validate repository
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  - name: Verify workflow
-    run: |
-      echo "GitHub Actions workflow started successfully."
-      echo "Repository checkout completed."
+      - name: Verify workflow
+        run: |
+          echo "GitHub Actions workflow started successfully."
+          echo "Repository checkout completed."
 ```
