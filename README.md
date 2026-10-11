@@ -6,22 +6,27 @@ labels: bug
 assignees: ''
 ---
 
-<div align="center">
+<h1 align="center">
+  <span style="color:#ef4444">B</span><span style="color:#f97316">U</span><span style="color:#f59e0b">G</span>
+  &nbsp;
+  <span style="color:#10b981">R</span><span style="color:#06b6d4">E</span><span style="color:#0d6efd">P</span><span style="color:#6366f1">O</span><span style="color:#8b5cf6">R</span><span style="color:#a855f7">T</span>
+  &nbsp;
+  <span style="color:#ec4899">🐛</span>
+</h1>
 
-# 🐛 Bug Report
-
-<img src="https://img.shields.io/badge/Type-Bug_Report-ef4444?style=for-the-badge&logo=bugatti&logoColor=white" />
-<img src="https://img.shields.io/badge/Project-Web--Engine-0d6efd?style=for-the-badge&logo=googlechrome&logoColor=white" />
-<img src="https://img.shields.io/badge/Priority-Unknown-f59e0b?style=for-the-badge" />
-
-**Благодарим, че отделяш време да помогнеш на Web-Engine!** 💙
-Попълни колкото се може повече информация, за да може проблемът да бъде решен бързо.
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/-🐛%20BUG%20REPORT-rainbow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-Web--Engine-0d6efd?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Priority-Unknown-f59e0b?style=for-the-badge" />
+</p>
 
 ---
 
-## 🐛 Bug Description
+<h2>
+  <span style="color:#ef4444">🐛</span>
+  <span style="color:#f97316">Bug</span>
+  <span style="color:#f59e0b">Description</span>
+</h2>
 
 <!-- ✏️ Опиши проблема с 1-2 изречения -->
 
@@ -29,9 +34,12 @@ assignees: ''
 
 ---
 
-## 🔁 Steps to Reproduce
-
-<!-- 🔁 Опиши ТОЧНИТЕ стъпки, за да възпроизведем проблема -->
+<h2>
+  <span style="color:#10b981">🔁</span>
+  <span style="color:#06b6d4">Steps</span>
+  <span style="color:#0d6efd">to</span>
+  <span style="color:#6366f1">Reproduce</span>
+</h2>
 
 **1.** Отиди на `...`
 **2.** Кликни на `...`
@@ -42,7 +50,11 @@ assignees: ''
 
 ---
 
-## ✅ Expected Behavior
+<h2>
+  <span style="color:#8b5cf6">✅</span>
+  <span style="color:#a855f7">Expected</span>
+  <span style="color:#ec4899">Behavior</span>
+</h2>
 
 <!-- Какво ТРЯБВАШЕ да се случи -->
 
@@ -50,17 +62,24 @@ assignees: ''
 
 ---
 
-## ❌ Actual Behavior
+<h2>
+  <span style="color:#ef4444">❌</span>
+  <span style="color:#f97316">Actual</span>
+  <span style="color:#f59e0b">Behavior</span>
+</h2>
 
 <!-- Какво РЕАЛНО се случи -->
 
-> **Пример:** Нищо не се случва. Формата остава празна и нищо не се записва.
+> **Пример:** Нищо не се случва. Формата остава празна.
 
 ---
 
-## 📸 Screenshots / Screen Recording
+<h2>
+  <span style="color:#10b981">📸</span>
+  <span style="color:#06b6d4">Screenshots</span>
+</h2>
 
-<!-- 🎬 Ако е приложимо, плъзни screenshot или GIF тук -->
+<!-- 🎬 Плъзни screenshot или GIF тук -->
 
 **🖼️ Screenshot:**
 <!-- плъзни изображение тук -->
@@ -70,9 +89,10 @@ assignees: ''
 
 ---
 
-## 🖥️ Environment
-
-<!-- 💻 Попълни информацията за твоята среда -->
+<h2>
+  <span style="color:#0d6efd">🖥️</span>
+  <span style="color:#6366f1">Environment</span>
+</h2>
 
 | 🌐 Info | 📋 Value |
 |---------|----------|
@@ -82,21 +102,17 @@ assignees: ''
 | **Web-Engine Version** | `<напр. 1.0 / 2.0>` |
 | **Database** | `<напр. MySQL 8.0 / MariaDB 10.6>` |
 | **Device** | `<напр. Desktop / Mobile / Tablet>` |
-| **Screen Resolution** | `<напр. 1920x1080>` |
-| **Connection** | `<напр. WiFi / Mobile Data / VPN>` |
 
 ---
 
-## 🔍 Error Logs
-
-<!-- 📋 Ако виждаш съобщения за грешка, постави ги тук -->
+<h2>
+  <span style="color:#8b5cf6">🔍</span>
+  <span style="color:#a855f7">Error</span>
+  <span style="color:#ec4899">Logs</span>
+</h2>
 
 <details>
 <summary>📋 <b>Click to expand logs</b></summary>
 
 ```log
 <!-- Постави error logs тук -->
-
-Приклад:
-[2026-10-11 14:23:45] ERROR: Undefined variable $balance
-[2026-10-11 14:23:45] Stack trace: ...
